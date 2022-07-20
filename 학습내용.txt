@@ -16,12 +16,12 @@
 		Ctrl + space -> 자동완성
 		Ctrl alt ↓ -> 카피
 		Alt Shift F -> 자동정렬
+		Alt ↑↓ -> 위치 변경
 	 j01_출력
 		PrintTest 실습
 
 220714
-	논리형 문자형 정수형 실수형 이론
-	j01_출력
+		논리형 문자형 정수형 실수형 이론
 		Myinfo 실습
 	j02_변수와상수
 		Constant 실습
@@ -52,11 +52,28 @@
 220719
 		Input4 실습 (replaceAll. nextLine)
 		StringBuilder1 실습 (stringBuilder.toString(), append, delete, toString)
+	j06_조건
 		제어문 설명 + 흐름도 설명(https://app.diagrams.net/)
 		if1 실습 (if else)
 		if2 실습 (if else if else) + 3항연산자랑 비교(Operation5)
 		백준 https://www.acmicpc.net/
 		if3 실습 (if else if else)
 		SwitchCase1 실습 (switch break)
+220720
+	j07_반복
+		while1 실습 (while)
+		while2 실습 (while)
+		while3 실습 (while)
+		while4 실습 (구구단 2단)
+		DoubleWhile1 (중첩반복)
+		DoubleWhile2 (중첩반복 + if)
+		랜덤
+			Random1(Math)
+			Random2(nextInt)
+			Random3(nextInt while if)
+			UUID
+		For1
+		For2 (구구단)
+		For3 (substring 활용 + length())
 
-	
+
