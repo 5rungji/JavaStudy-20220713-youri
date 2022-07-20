@@ -34,9 +34,6 @@
 		Operation5 실습 (삼항연산자)
 	j04_문자열
 		이스케이프 문자
-
-◀◀◀◀ 복습 완
-
 		String1 실습 (indexOf, lastIndexof, substring)
 220715
 	git (드림코딩엘리 유튜버 강의 참고)
@@ -46,11 +43,14 @@
 		Create
 		파일 > 보기 (숨김 파일 확인) > .git 파일 보여야 저장소인거
 	j05_입력
-		Input1 실습 (Scanner: next, netxLine)
-		Input2 실습 (Scanner: next, netxLine)
+		Input1 실습 (Scanner: next, nextLine)
+		Input2 실습 (Scanner: next, nextLine)
 		Input3 ... 뭐 했지...? 그냥 무시해도 될 듯! 버퍼 설명~
 220719
 		Input4 실습 (replaceAll. nextLine)
+
+◀◀◀◀ 복습 완
+
 		StringBuilder1 실습 (stringBuilder.toString(), append, delete, toString)
 	j06_조건
 		제어문 설명 + 흐름도 설명(https://app.diagrams.net/)
