@@ -5,10 +5,11 @@ public class For4 {
 
 	public static void main(String[] args) {
 
-		String address = "부산 동래구 사직동";
+		String address = "부산 동래구 사직동 중앙대로";
 		
-		for(int i = 0; i < 11; i++) {
+		for(int i = 0; i < address.length(); i++) {
 			String subStr = address.substring(i, i + 1);
+			// 한글자씩 잘라주는 역할
 			if(subStr.equals(" ")) {
 				int index = 0;
 				String temp = address.substring(0, i);
@@ -22,7 +23,7 @@ public class For4 {
 				}
 			}
 			if(i == address.length() - 1) {
-				System.out.println(address.substring(address.lastIndexOf(" ")));
+				System.out.println(address.substring(address.lastIndexOf(" ") + 1));
 			}
 		}
 		
