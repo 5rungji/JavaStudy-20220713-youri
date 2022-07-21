@@ -23,6 +23,7 @@ public class For4 {
 				}
 			}
 			if(i == address.length() - 1) {
+				System.out.println(i);
 				System.out.println(address.substring(address.lastIndexOf(" ") + 1));
 			}
 		}

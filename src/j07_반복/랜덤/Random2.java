@@ -11,12 +11,10 @@ public class Random2 {
 		int i = 0;
 		int temp = 0;
 		
-		
-		
 		while(i < 10) {
 			int rNum = random.nextInt(10);
 			System.out.println("현재 temp 값: " + temp);
-			System.out.println("새로 생선된 값: " + rNum);
+			System.out.println("새로 생성된 값: " + rNum);
 			System.out.println();
 			if(i == 0) {
 				temp = random.nextInt(10);

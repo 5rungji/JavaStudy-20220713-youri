@@ -48,9 +48,6 @@
 		Input3 ... 뭐 했지...? 그냥 무시해도 될 듯! 버퍼 설명~
 220719
 		Input4 실습 (replaceAll. nextLine)
-
-◀◀◀◀ 복습 완
-
 		StringBuilder1 실습 (stringBuilder.toString(), append, delete, toString)
 	j06_조건
 		제어문 설명 + 흐름도 설명(https://app.diagrams.net/)
@@ -75,5 +72,17 @@
 		For1
 		For2 (구구단)
 		For3 (substring 활용 + length())
+220721
+		For4 (substring equals lastIndexOf)
 
+◀◀◀◀ 복습 완
 
+		ProtocolSubString (indexOf equals)
+		Continue1
+		Continue2
+	j08_메소드
+		Method1 (함수)
+		Method2 (함수 정의 및 종류)
+		Method3 (함수 오버로딩)
+		Method3 실습 (함수 오버로딩)
+	객체지향 언어 (이론)

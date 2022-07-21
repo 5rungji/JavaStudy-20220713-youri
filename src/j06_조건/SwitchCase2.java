@@ -18,19 +18,13 @@ public class SwitchCase2 {
 				}
 			case 8:
 				System.out.println("B");
-				if(breakFlag) {
-					break;
-				}
+				break;
 			case 7:
 				System.out.println("C");
-				if(breakFlag) {
-					break;
-				}
+				break;
 			case 6:
 				System.out.println("D");
-				if(breakFlag) {
-					break;
-				}
+				break;
 			default:
 				System.out.println("F");
 		}

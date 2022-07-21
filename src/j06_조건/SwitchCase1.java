@@ -1,12 +1,11 @@
 package j06_조건;
 
-import java.util.Scanner;
 
 public class SwitchCase1 {
 
 	public static void main(String[] args) {
 		
-		String select = "60";
+		String select = "20";
 		
 		switch(select) {
 			case "10":
