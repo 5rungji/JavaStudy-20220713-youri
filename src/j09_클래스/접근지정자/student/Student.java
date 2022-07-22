@@ -2,6 +2,9 @@ package j09_클래스.접근지정자.student;
 
 public class Student { 
 	// 모든 변수는 무조건 private
+	
+	//클래스 안에는 null 표기 X
+	//메소드 안에는 null 등 표기해야함
 	private String name;
 	private int studentYear;
 	private int age;
