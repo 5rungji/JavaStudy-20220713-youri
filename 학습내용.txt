@@ -86,3 +86,19 @@
 		Method3 (함수 오버로딩)
 		Method3 실습 (함수 오버로딩)
 	객체지향 언어 (이론)
+220722
+	J09_클래스
+		ComputerMain + Computer 실습
+		CarMain + Car 실습
+		생성자
+			ConstuctorExMain ConstuctorEx
+			ConstuctorExMain2 ConstuctorEx2(Alt+Shift+S > Generate Constructor using Fields)
+			CarMain Car
+		접근지정자
+			a / b / AccessModifierMain
+			student
+				Student (private, 생성자, Settter) StudentMain (Alt+Shift+S > getter setter)
+		캡슐화
+			UserService User UserMain
+
+				
