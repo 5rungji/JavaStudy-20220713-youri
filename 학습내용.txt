@@ -74,9 +74,6 @@
 		For3 (substring 활용 + length())
 220721
 		For4 (substring equals lastIndexOf)
-
-◀◀◀◀ 복습 완
-
 		ProtocolSubString (indexOf equals)
 		Continue1
 		Continue2
@@ -100,6 +97,9 @@
 				Student (private, 생성자, Settter) StudentMain (Alt+Shift+S > getter setter)
 		캡슐화
 			UserService User UserMain
+
+◀◀◀◀ 복습 완
+
 220725
 	j10_배열
 		Array1 (int, String, Scanner)

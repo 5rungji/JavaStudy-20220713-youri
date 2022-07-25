@@ -9,7 +9,6 @@ public class For5 {
 		
 		String a = null;
 		String b = null;
-		String c = null;
 
 		boolean startFlag = true;
 		
@@ -20,9 +19,9 @@ public class For5 {
 			// 두번째 있는 " " 를 찾는다
 			
 			if(nextSliceIndex == -1) { // " " 가 더 이상 없을 때(마지막일때)
-				c = address.substring(sliceIndex);
+				b = address.substring(sliceIndex);
 				// 마지막 단어를 변수 c에 담아서 출력한다
-				System.out.println(c);				
+				System.out.println(b);				
 				break; // 반복중지
 			}
 
