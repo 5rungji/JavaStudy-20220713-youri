@@ -100,5 +100,19 @@
 				Student (private, 생성자, Settter) StudentMain (Alt+Shift+S > getter setter)
 		캡슐화
 			UserService User UserMain
+220725
+	j10_배열
+		Array1 (int, String, Scanner)
+		Array2 (배열 정의 방법)
+		Array3 실습
+		Array4 (.length())
+		Arrays 
+			Arrays1(CopyOf, copyOfRange, sort. fill. binarySearch)
+		Array5
+	j11_상속
+		Animal Human Tiger AnimalMain
+		factory
+			FactoryMain / FactoryMain2 / Factory LGFactory SamsungFactory
+			(업캐스팅 @Override)
 
-				
+
