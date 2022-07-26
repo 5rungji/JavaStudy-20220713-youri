@@ -5,7 +5,7 @@ public class UserMain {
 	public static void main(String[] args) {
 		/*
 		 * 사용자 정보 시스템
-		 * username(사용자이름)
+		 * userName(사용자이름)
 		 * password(비밀번호)
 		 * name(이름)
 		 * email(이메일)

@@ -3,8 +3,7 @@ package j03_연산자;
 public class Operation2 {
 
 /*
- * 논리 연산
- * 
+ * 논리 연산 * 
  * AND연산(&&) - 곱
  * true && true => true (1*1=1)
  * true && false => false (1*0=0)
