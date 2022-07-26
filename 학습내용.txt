@@ -114,5 +114,7 @@
 		factory
 			FactoryMain / FactoryMain2 / Factory LGFactory SamsungFactory
 			(업캐스팅 @Override)
-
-
+220716
+	j09_클래스2
+		Student StudentMain StudentService (학생등록시스템 프로그램)
+		User UserMain UserService (사용자등록시스템 프로그램)
