@@ -97,9 +97,6 @@
 				Student (private, 생성자, Settter) StudentMain (Alt+Shift+S > getter setter)
 		캡슐화
 			UserService User UserMain
-
-◀◀◀◀ 복습 완
-
 220725
 	j10_배열
 		Array1 (int, String, Scanner)
@@ -114,7 +111,26 @@
 		factory
 			FactoryMain / FactoryMain2 / Factory LGFactory SamsungFactory
 			(업캐스팅 @Override)
-220716
+220726
 	j09_클래스2
 		Student StudentMain StudentService (학생등록시스템 프로그램)
 		User UserMain UserService (사용자등록시스템 프로그램)
+220727
+	j11_상속
+		factory
+			FactoryMain3 업캐스팅 다운캐스팅 설명
+◀◀◀◀ 복습 완
+
+			FactoryMain4(instaceof를 활용한 다운캐스팅 반복)
+			FactoryMain5 실습 
+		리팩토링2 (도움도서 추천)
+	j12_다형성
+		추상
+			Animal human AnimalMain (추상클래스 abstract)
+			computer
+				Computer Laptop Desktop DesktopImpl ComputerMain( abstract extends)
+		factory
+			FatoryMain FactoryService
+		인터페이스
+		
+

@@ -1,9 +1,6 @@
 package j10_배열;
 
-import java.util.Scanner;
-
 import j09_클래스.접근지정자.student.Student;
-import j09_클래스.접근지정자.student.StudentMain;
 
 public class Array5 {
 

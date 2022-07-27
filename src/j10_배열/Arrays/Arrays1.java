@@ -32,13 +32,13 @@ public class Arrays1 {
 		
 		int[] numbers2 = numbers; 
 		
-		//printArray(numbers);
-		//printArray(numbers2);
+		printArray(numbers);
+		printArray(numbers2);
 
 		numbers2[0] = 100;// 주소가 동일
 
-		//printArray(numbers);
-		//printArray(numbers2);
+		printArray(numbers);
+		printArray(numbers2);
 		
 		/*-------깊은 복사-------*/
 
