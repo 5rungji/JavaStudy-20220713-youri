@@ -3,19 +3,19 @@ package j11_상속.factory;
 public class LGFactory extends Factory {
 
 	public LGFactory(int factoryNumber) {
-		super(factoryNumber);
+		super(factoryNumber); // 부모생성자를 상속해옴
 	}
 
 	@Override
 	public void start() {
-		System.out.println("LG ");
+		System.out.print("LG ");
 		super.start();
 	}
 	
 	@Override
 	public void stop() {
-		System.out.println("LG ");
-		super.start();
+		System.out.print("LG ");
+		super.stop();
 	}
 	
 	public void produceSmartTv() {

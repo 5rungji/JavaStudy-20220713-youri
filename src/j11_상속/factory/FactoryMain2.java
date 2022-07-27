@@ -4,6 +4,11 @@ public class FactoryMain2 {
 
 	public static void main(String[] args) {
 		//업캐스팅
+		/*
+		 * 업캐스팅 후에는 자식요소만 가진 성질은 사용할 수 없다
+		 * (본인만 가진 것 쓰지 X)
+		 * 부모가 자긴 요소는 사용할 수 있다.
+		 */
 		Factory factory1 = new SamsungFactory(1);
 		Factory factory2 = new LGFactory(1);
 		
