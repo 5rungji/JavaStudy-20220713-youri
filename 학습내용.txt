@@ -131,6 +131,6 @@
 				Computer Laptop Desktop DesktopImpl ComputerMain( abstract extends)
 		factory
 			FatoryMain FactoryService
+220728
 		인터페이스
-		
 
