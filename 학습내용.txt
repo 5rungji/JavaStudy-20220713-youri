@@ -133,4 +133,19 @@
 			FatoryMain FactoryService
 220728
 		인터페이스
+			[인페: ConnectionTerminal - HDMI / VGA / usb] [Monitor / BeamProject] [Computer] [ComputerMain]
+			
+
+[AtmMain]
+[ATM]
+사용자 조회 >> [USER - 이름 / 계좌번호 / 비밀번호 ]
+[인페: 메뉴 - 입금&출금 / 계좌이체 / 잔액 ]
+
+atm기
+사용자 - 이름. 계좌번호. 비밀번호
+통장 - 계좌번호랑 통장객체랑 연결되나?
+메뉴 - 잔액 입금 출금 계좌이체
+은행 - 어떤 은행이고 어떤 계좌인지
+
+
 
