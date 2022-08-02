@@ -147,5 +147,38 @@ atm기
 메뉴 - 잔액 입금 출금 계좌이체
 은행 - 어떤 은행이고 어떤 계좌인지
 
-
-
+220729
+	j09. 클래스3 복습
+	j11. 상속2 복습
+220801
+	j12 다형성2
+		인터페이스
+			[MessengerMain / MessengerMiddleware / 인페: Messenger  / Kakaotalk , Facebook]
+	j13_최상위클래스
+		ObjectMain Test(equals/hashCode/toString)
+		ToString ToStringMain
+		StringEquals 
+		Student EqualsMain
+		HashCodeMain (hashCode())
+		ClassMain (Parameter)
+	Lombok 다운 및 설치 1.18.24
+		lombok > Select에서 springTool 클릭 (경로에 한글이 있으면 XX)
+		project > lib 폴더 생성
+		Java Build path > libraries > Add External JARs > lombok > Apply
+	j14_lombok
+		StudentMain Student(@NoArgsConstructor @AllArgsConstructor @Data Builder)
+		UserMain User (@NonNull final @RequiredArgsConstructor)
+		CarBuilder Car Builder BuilderMain
+220802
+	j14_lombok.builder
+		Product ProductMain
+	j15_스태틱
+		StaticTest StaticMain
+		MainStaticTest
+		Student StudentMain
+		j15_스태틱.싱글톤
+			Car KIA(Singleton) SingletonMain
+			Test1 Test2 Test3
+	j16_제네릭
+		GenericMain GenericTest
+		CMRespDto CMTespMain
