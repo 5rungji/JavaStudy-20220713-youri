@@ -17,7 +17,6 @@ public class ToStringMain {
 		System.out.println(ts);
 		// .toString() 은 생략이 가능하다.
 		
-		
 	}
 
 }

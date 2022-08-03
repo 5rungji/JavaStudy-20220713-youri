@@ -26,6 +26,7 @@ public class FactoryMain {
 		}
 		
 		FactoryService factoryService = new FactoryService(factory);
+		//위에서 받아온 factory를 factoryService로 업캐스팅함
 		
 		factoryService.factoryStart();
 		factoryService.factoryStop();

@@ -1,4 +1,4 @@
-package j17_컬렉션.Map;
+package j17_컬렉션.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;

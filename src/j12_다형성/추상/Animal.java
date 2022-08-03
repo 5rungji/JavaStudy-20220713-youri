@@ -8,7 +8,7 @@ package j12_다형성.추상;
 
 //abstractMethod(추상메소드)
 public abstract class Animal {
-	public abstract void move();
+	public abstract void move(); //생성자
 	
 }
 

@@ -6,5 +6,5 @@ public abstract class Computer {
 	
 	public void onSound() {
 		System.out.println("소리를 출력합니다.");
-	}
+	} //생성자를 가질 수 있다!
 }

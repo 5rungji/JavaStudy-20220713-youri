@@ -8,4 +8,6 @@ public abstract class Desktop extends Computer {
 	}
 
 	public abstract void onMouseClick();
+	// 추상 메소드를 가지고 있으므로 추상 메소드가 되어야 한다.
+	// onDisplay()를 오버라이드 하지 않았으므로 추상메소드가 되어야한다.
 }

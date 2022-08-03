@@ -120,8 +120,6 @@
 	j11_상속
 		factory
 			FactoryMain3 업캐스팅 다운캐스팅 설명
-◀◀◀◀ 복습 완
-
 			FactoryMain4(instaceof를 활용한 다운캐스팅 반복)
 			FactoryMain5 실습 
 		리팩토링2 (도움도서 추천)
@@ -135,19 +133,6 @@
 220728
 		인터페이스
 			[인페: ConnectionTerminal - HDMI / VGA / usb] [Monitor / BeamProject] [Computer] [ComputerMain]
-			
-
-[AtmMain]
-[ATM]
-사용자 조회 >> [USER - 이름 / 계좌번호 / 비밀번호 ]
-[인페: 메뉴 - 입금&출금 / 계좌이체 / 잔액 ]
-
-atm기
-사용자 - 이름. 계좌번호. 비밀번호
-통장 - 계좌번호랑 통장객체랑 연결되나?
-메뉴 - 잔액 입금 출금 계좌이체
-은행 - 어떤 은행이고 어떤 계좌인지
-
 220729
 	j09. 클래스3 복습
 	j11. 상속2 복습
@@ -158,14 +143,17 @@ atm기
 	j13_최상위클래스
 		ObjectMain Test(equals/hashCode/toString)
 		ToString ToStringMain
-		StringEquals 
-		Student EqualsMain
+		StringEquals Student EqualsMain
 		HashCodeMain (hashCode())
 		ClassMain (Parameter)
 	Lombok 다운 및 설치 1.18.24
 		lombok > Select에서 springTool 클릭 (경로에 한글이 있으면 XX)
 		project > lib 폴더 생성
 		Java Build path > libraries > Add External JARs > lombok > Apply
+
+◁◁◁◁ 복습 시작
+◀◀◀◀ 복습 완
+
 	j14_lombok
 		StudentMain Student(@NoArgsConstructor @AllArgsConstructor @Data Builder)
 		UserMain User (@NonNull final @RequiredArgsConstructor)
@@ -192,7 +180,7 @@ atm기
 		HashSet
 			StringHashSet( iterator() .hasNext() .next())
 			StudentHashSet
-		Map
+		HashMap
 			StringMap
 
 	
