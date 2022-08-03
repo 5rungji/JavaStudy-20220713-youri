@@ -16,6 +16,7 @@ public class EqualsMain {
 		
 		System.out.println(s1 instanceof Student); // x
 		System.out.println(s1.getClass() == Student.class); // O
+		System.out.println(s1.getClass());
 		
 		System.out.println(s2.getClass());
 		System.out.println(s3.getClass());

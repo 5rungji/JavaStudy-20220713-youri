@@ -1,5 +1,6 @@
 220713
 	java 프로그램 설치
+	자바 설치: sites.google.com/view/kji-java/index
 	환경변수 설정: https://prolite.tistory.com/975
 	스프링툴: https://spring.io/ > Projects > Spring Tools 4
 	폰트(d2coding): https://github.com/naver/d2codingfont
@@ -182,3 +183,16 @@ atm기
 	j16_제네릭
 		GenericMain GenericTest
 		CMRespDto CMTespMain
+220803
+	컬렉션 클래스(프레임워크) 설명 (List<E> Set<E> Map<K, V>)
+	j17_컬렉션
+		ArrayList
+			StringList ( add(0,null) size() toString(list) get() indexOf() set(0, "") contains() containsAll() addAll() remove() removeAll() retainAll() isEmpty() clear() asList() foreach)
+			StudentArrayList
+		HashSet
+			StringHashSet( iterator() .hasNext() .next())
+			StudentHashSet
+		Map
+			StringMap
+
+	
