@@ -60,7 +60,6 @@ public class UserArrayList2 {
 				}else {
 					System.out.println("비밀번호 에러");
 				}
-			}else {
 			}
 			System.out.println("사용자를 찾을 수 없습니다.");
 		}		

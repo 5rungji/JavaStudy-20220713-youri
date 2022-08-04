@@ -152,15 +152,14 @@
 		Java Build path > libraries > Add External JARs > lombok > Apply
 
 ◁◁◁◁ 복습 시작
-◀◀◀◀ 복습 완
 
 	j14_lombok
-		StudentMain Student(@NoArgsConstructor @AllArgsConstructor @Data Builder)
+		StudentMain Student(@NoArgsConstructor @AllArgsConstructor @Data)
 		UserMain User (@NonNull final @RequiredArgsConstructor)
 		CarBuilder Car Builder BuilderMain
 220802
-	j14_lombok.builder
-		Product ProductMain
+		builder
+			Product ProductMain
 	j15_스태틱
 		StaticTest StaticMain
 		MainStaticTest
@@ -171,6 +170,9 @@
 	j16_제네릭
 		GenericMain GenericTest
 		CMRespDto CMTespMain
+
+◀◀◀◀ 복습 완
+
 220803
 	컬렉션 클래스(프레임워크) 설명 (List<E> Set<E> Map<K, V>)
 	j17_컬렉션
