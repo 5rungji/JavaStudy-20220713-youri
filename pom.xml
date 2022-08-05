@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>JavaStudy-20220713-youri</groupId>
+  <artifactId>JavaStudy-20220713-youri</artifactId>
+  <version>1.0.0</version>
+  <name>JavaStudy-20220713-youri</name>
+  <description>Java Study</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+ 		<!-- 아래는 JAVA 버전입니다. 바꾸지 말 것! 우리는 11버전할것 -->
+          <release>11</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <!-- MVN Repository 에서 추가한 것! dependencies 안에 넣음 -->
+  <!-- 문제시 Alt+f5를 눌러서 새로고침해봄 -->
+  <!-- dependencies 외의 것이 바뀔 때도 위의 업데이트를 해야함 -->
+  <dependencies> 
+	<!-- lombok -->
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.24</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- gson -->
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.8.5</version>
+	</dependency>
+  </dependencies>
+</project>

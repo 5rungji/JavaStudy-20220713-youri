@@ -8,7 +8,7 @@ public class AtmMain {
 	Scanner scanner = new Scanner(System.in);
 	
 	
-	public void Button(String select, AtmService selectAtm, User user){		
+	public boolean Button(String select, AtmService selectAtm, User user){		
 		select = scanner.nextLine();
 		Atm atm = new Atm(selectAtm, user);		
 		
@@ -21,10 +21,11 @@ public class AtmMain {
 		}else if(select.equals("4")) {
 			atm.userWithdraw();
 		}else if(select.equals("q")) {
-			break;
+			return false;
 		}else {
 			System.out.println("종류를 잘 못 선택하셨습니다.");
 		}
+		return true;
 	}
 
 	
@@ -71,15 +72,15 @@ public class AtmMain {
 			
 			User user = new User(name, bankCode);
 			
-
 			//ATM 버튼 고르기			
-			while(true) {
+			boolean flag = true;
+			while(flag) {
 				System.out.println("[버튼 종류]");
 				System.out.println("1.조회 2.입금 3.송금 4.이체");
 				System.out.println("q. 뒤로 가기");
 				System.out.println("선택 >> ");
 					
-				atmMain.Button(select, selectAtm, user);
+				flag = atmMain.Button(select, selectAtm, user);
 			}
 
 

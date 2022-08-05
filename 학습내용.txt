@@ -150,9 +150,6 @@
 		lombok > Select에서 springTool 클릭 (경로에 한글이 있으면 XX)
 		project > lib 폴더 생성
 		Java Build path > libraries > Add External JARs > lombok > Apply
-
-◁◁◁◁ 복습 시작
-
 	j14_lombok
 		StudentMain Student(@NoArgsConstructor @AllArgsConstructor @Data)
 		UserMain User (@NonNull final @RequiredArgsConstructor)
@@ -171,6 +168,8 @@
 		GenericMain GenericTest
 		CMRespDto CMTespMain
 
+
+◁◁◁◁ 복습 시작
 ◀◀◀◀ 복습 완
 
 220803
@@ -190,3 +189,17 @@
 			UserArrayList2 (위 실습 복습)
 		HashMap
 			Dictionary(containsKey())
+220805
+		user
+			Main(Map 안에 리스트 안에 Map을 저장하는 구조)
+			JsonObject 위와 같은 실습
+	아파치 메이븐(mvn) ! 인터넷 연결이 되어있어야 합니다. (Alt +f5)
+		프로젝트 우클릭> Configure > Convert to Maven Project>version 보통세자리로
+		다운로드 사이트: https://maven.apache.org/download.cgi
+		MVN Repository 사이트: https://mvnrepository.com/
+		lombok에서 Java Build path 의 롬복 설정 삭제
+	j18_JSON
+		Gson1 (Gson GsonBuilder setPrettyPrinting)
+		Gson2 User(gson의 어노테이션) UserSerivice (객체->JSON / JSON->객체)
+		Gson3(Map->JSON / JSON->Map)
+		Gson4(fromJson)
