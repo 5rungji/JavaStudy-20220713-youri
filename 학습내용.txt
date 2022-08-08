@@ -203,3 +203,13 @@
 		Gson2 User(gson의 어노테이션) UserSerivice (객체->JSON / JSON->객체)
 		Gson3(Map->JSON / JSON->Map)
 		Gson4(fromJson)
+220808
+	J19_익명클래스
+		AbstractTest Main AbstractTestImpl
+		WindowBuilder(java swing)
+			Jpanel searchButton
+		role
+			GrantedAuthority PrincipalDetailse User PrincipalMain
+		람다식
+			Math Main	
+			StrTest StrTestMain
