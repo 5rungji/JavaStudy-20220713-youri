@@ -167,20 +167,20 @@
 	j16_제네릭
 		GenericMain GenericTest
 		CMRespDto CMTespMain
-
-
-◁◁◁◁ 복습 시작
-◀◀◀◀ 복습 완
-
 220803
 	컬렉션 클래스(프레임워크) 설명 (List<E> Set<E> Map<K, V>)
 	j17_컬렉션
 		ArrayList
 			StringList ( add(0,null) size() toString(list) get() indexOf() set(0, "") contains() containsAll() addAll() remove() removeAll() retainAll() isEmpty() clear() asList() foreach)
 			StudentArrayList
+
+
 		HashSet
 			StringHashSet( iterator() .hasNext() .next())
 			StudentHashSet
+
+◁◁◁◁ 복습 시작
+◀◀◀◀ 복습 완
 		HashMap
 			StringMap
 220804
@@ -203,13 +203,7 @@
 		Gson2 User(gson의 어노테이션) UserSerivice (객체->JSON / JSON->객체)
 		Gson3(Map->JSON / JSON->Map)
 		Gson4(fromJson)
-220808
-	J19_익명클래스
-		AbstractTest Main AbstractTestImpl
-		WindowBuilder(java swing)
-			Jpanel searchButton
-		role
-			GrantedAuthority PrincipalDetailse User PrincipalMain
-		람다식
-			Math Main	
-			StrTest StrTestMain
+
+
+
+
