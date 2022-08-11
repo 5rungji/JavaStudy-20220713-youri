@@ -31,7 +31,11 @@ public class StringMap {
 		Iterator<Integer> irKey = strMap.keySet().iterator();
 		while(irKey.hasNext()) {
 			System.out.println(strMap.get(irKey.next()));
+			System.out.println("dma");
 		}
+
+		System.out.println(strMap.entrySet());
+		System.out.println(strMap);
 		
 		strMap.entrySet().forEach(arg -> {
 			System.out.println(arg);
