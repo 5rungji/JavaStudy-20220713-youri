@@ -197,15 +197,13 @@
 		lombok에서 Java Build path 의 롬복 설정 삭제
 	j18_JSON
 		Gson1 (Gson GsonBuilder setPrettyPrinting)
-
-◁◁◁◁ 복습 시작
 		Gson2 User(gson의 어노테이션) UserSerivice (객체->JSON / JSON->객체)
 		Gson3(Map->JSON / JSON->Map)
 		Gson4(fromJson)
 220808
 	J19_익명클래스	
 		AbstractTest Main AbstractTestImpl Main2
-◀◀◀◀ 복습 완
+◁◁◁◁ 복습 시작
   		WindowBuilder(java swing)
 			Jpanel searchButton
 		role
@@ -213,6 +211,7 @@
 		람다식
 			Math Main    
 			StrTest StrTestMain
+◀◀◀◀ 복습 완
 220809
 			DefaultFunction(Runnable Supplier Consumer Function Predicate / BiConsumer)
 		foreach
