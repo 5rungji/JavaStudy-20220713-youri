@@ -1,6 +1,5 @@
 package j20_예외처리;
 
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

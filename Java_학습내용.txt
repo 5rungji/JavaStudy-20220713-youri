@@ -203,7 +203,6 @@
 220808
 	J19_익명클래스	
 		AbstractTest Main AbstractTestImpl Main2
-◁◁◁◁ 복습 시작
   		WindowBuilder(java swing)
 			Jpanel searchButton
 		role
@@ -211,7 +210,6 @@
 		람다식
 			Math Main    
 			StrTest StrTestMain
-◀◀◀◀ 복습 완
 220809
 			DefaultFunction(Runnable Supplier Consumer Function Predicate / BiConsumer)
 		foreach
@@ -222,6 +220,7 @@
 		ExceptionTest2 ExceptionMain
 		CustomException
 	j21_기본자료형_형변환
+		ConvertMain
 220810
 	j07_반복
 		BreakAndContinue
@@ -230,3 +229,5 @@
 	J17_컬렉션
 		user
 			UserMain
+◁◁◁◁ 복습 시작
+◀◀◀◀ 복습 완

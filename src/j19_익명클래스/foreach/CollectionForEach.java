@@ -36,32 +36,32 @@ public class CollectionForEach {
 		
 		System.out.println("SET 실행");
 		
-		Set<String> strSet = new HashSet<String>();
+Set<String> strSet = new HashSet<String>();
 
-		for(int i =0; i<26; i++) {
-			strSet.add(Character.toString((char) (97 + i)));
-		}
-		
-		for(String str : strSet) {
-			System.out.println(str);
-		}
-		
-		strSet.forEach(str -> {System.out.println(str);});
+for(int i =0; i<26; i++) {
+	strSet.add(Character.toString((char) (97 + i)));
+}
+
+for(String str : strSet) {
+	System.out.println(str);
+}
+
+strSet.forEach(str -> {System.out.println(str);});
 
 
 		System.out.println("MAP 실행");
 		
 		Map<String, Integer> map = new HashMap<String, Integer>();
 
-		for(int i =0; i<26; i++) {
-			map.put(Character.toString((char) (97 + i)), 97 + i);
-		}
-		
-		map.forEach((k, v) -> {
-			System.out.print("key: " + k);
-			System.out.print(", ");
-			System.out.println("value: " + v);
-		});
+for(int i =0; i<26; i++) {
+	map.put(Character.toString((char) (97 + i)), 97 + i);
+}
+
+map.forEach((k, v) -> {
+	System.out.print("key: " + k);
+	System.out.print(", ");
+	System.out.println("value: " + v);
+});
 		
 	}
 

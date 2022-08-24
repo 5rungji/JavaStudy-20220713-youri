@@ -33,14 +33,14 @@ public class DefaultFunction {
 		};
 		consumer.accept("김준일");
 		
-		//매개변수O 변수O
-		Function<Integer, Integer> function = (num) -> num*num;
-		System.out.println(function.apply(10));
+//매개변수O 변수O
+Function<Integer, Integer> function = (num) -> num*num;
+System.out.println(function.apply(10));
 
-		//매개변수O 변수O
-		
-		Predicate<String> predicate = (str) -> str == null || str.isBlank();
-		System.out.println(predicate.test(""));
+//매개변수O 변수O
+
+Predicate<String> predicate = (str) -> str == null || str.isBlank();
+System.out.println(predicate.test(""));
 		
 		/////////////////////////////////////////////
 		

@@ -9,7 +9,6 @@ public class ExceptionTest1 {
 		
 		for(int i = 0; i < 5; i++) {
 			try {
-				System.out.println(numArray[i]);
 				
 				if(1 == 1) throw new BadAttributeValueExpException(null); // throw는 예외를 강제적으로 생성
 				
