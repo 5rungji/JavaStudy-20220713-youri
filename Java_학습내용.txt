@@ -39,7 +39,6 @@
 220715
 	git (드림코딩엘리 유튜버 강의 참고)
 		Sourcetree 다운: https://sourcetreeapp.com/ > 건너뛰기
-		opel22@naver.com / opel22 (5ranG) / orange0324!
 		Remote > GitHub > OAuth토큰 새로고침
 		Create
 		파일 > 보기 (숨김 파일 확인) > .git 파일 보여야 저장소인거
